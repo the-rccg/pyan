@@ -37,6 +37,10 @@ Example:
 
 `pyan3 *.py --uses --no-defines --colored --grouped --annotated --dot >myuses.dot`
 
+For Windows users:
+
+`python -m pyan.main *.py --uses --no-defines --colored --grouped --annotated --dot >myuses.dot`
+
 Then render using your favorite GraphViz filter, mainly `dot` or `fdp`:
 
 `dot -Tsvg myuses.dot >myuses.svg`
